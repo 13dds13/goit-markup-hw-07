@@ -3,7 +3,7 @@
   --text-color: #757575;
   --title-color: #212121;
   --accent-color: #2196f3;
-  --logo-color: #000000;
+  --logo-color-dark: #000000;
   --bgc: #2f303a;
   --background-button-section: #f5f4fa;
   --text-color-on-hover-bg: #ffffff;
@@ -11,7 +11,7 @@
   --socials-team-logo: #afb1b8;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -21,9 +21,9 @@ p,
 ul {
   margin: 0;
   padding: 0;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -32,7 +32,7 @@ ul {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
-}
+} */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -45,7 +45,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 1px solid aqua; */
 }
 
 .section {
@@ -85,28 +84,31 @@ body {
   align-items: center;
 }
 
-.nav-container {
+.nav-menu {
   display: flex;
   align-items: center;
 }
 
-.logo {
-  font-family: var(--font-logo);
-  font-weight: bold;
+/* .logo {
+   font-family: var(--font-logo);
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
-.logo-web {
+ .logo__web {
   color: var(--accent-color);
 }
 
-.logo-studio {
-  color: var(--logo-color);
+.logo__studio_dark {
+  color: #000000;
 }
 
-.nav-menu {
+.logo__studio_light {
+  color: #ffffff;
+} */
+
+.nav-list {
   display: flex;
   margin-left: 93px;
   font-weight: 500;
@@ -754,18 +756,14 @@ body {
   flex-flow: column;
 }
 
-.footer .logo {
+/* .footer .logo {
   display: inline-block;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
-}
-
-.logo-studio-footer {
-  color: var(--text-color-on-hover-bg);
-}
+} */
 
 .footer-list {
   list-style-type: none;
