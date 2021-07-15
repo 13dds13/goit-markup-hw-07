@@ -34,11 +34,7 @@ ul {
   clip: rect(0 0 0 0);
 } */
 
-/* body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--text-color);
-}
-
+/*
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -502,7 +498,6 @@ ul {
 .features-list {
   margin-bottom: 94px;
   display: flex;
-  list-style-type: none;
 }
 
 .features-list .item {

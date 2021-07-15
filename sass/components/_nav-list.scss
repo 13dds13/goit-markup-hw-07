@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.nav-list_current::after {
+.nav-list__link_current::after {
   content: '';
   position: absolute;
   left: 0;

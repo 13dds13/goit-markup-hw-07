@@ -44,6 +44,11 @@ a {
   clip: rect(0 0 0 0);
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
 .images {
   display: block;
   max-width: 100%;
@@ -120,7 +125,7 @@ a {
   position: relative;
 }
 
-.nav-list_current::after {
+.nav-list__link_current::after {
   content: '';
   position: absolute;
   left: 0;
@@ -210,7 +215,6 @@ a {
 .contacts-list__link:hover .contacts-list__icon,
 .contacts-list__link:focus .contacts-list__icon {
   fill: var(--accent-color);
-  outline: none;
 }
 
 .section-hero {
