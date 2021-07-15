@@ -17,7 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Header-->
@@ -30,7 +30,7 @@
           >
           <ul class="nav-list">
             <li class="nav-list__item">
-              <a class="nav-list__link current" href="./index.html">Студия</a>
+              <a class="nav-list__link nav-list__link_current" href="./index.html">Студия</a>
             </li>
             <li class="nav-list__item">
               <a class="nav-list__link" href="./portfolio.html">Портфолио</a>
@@ -38,6 +38,7 @@
             <li class="nav-list__item"><a class="nav-list__link" href="">Контакты</a></li>
           </ul>
         </nav>
+
         <ul class="contacts-list">
           <li class="contacts-list__item">
             <a class="contacts-list__link" href="mailto:info@devstudio.com">
@@ -65,10 +66,11 @@
     <!-- Main -->
     <main>
       <!--Hero-->
-      <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
-        <div class="backdrop is-hidden" data-modal>
+      <section class="section section-hero">
+        <h1 class="hero-title main-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="btn btn-hero" type="button" data-modal-open>Заказать услугу</button>
+
+        <div class="backdrop backdrop_is-hidden" data-modal>
           <div class="modal">
             <button type="button" class="close-btn" data-modal-close>
               <svg class="icon-close" width="11" height="11">
@@ -120,9 +122,6 @@
               </div>
 
               <div class="agree-wrap">
-                <!-- <svg class="icon-checked" width="16" height="15">
-                  <use href="./images/symbol-defs.svg#icon-checked"></use>
-                </svg> -->
                 <input
                   type="checkbox"
                   name="checkbox"
@@ -139,7 +138,7 @@
                 </label>
               </div>
 
-              <button type="submit" class="modal-btn">Отправить</button>
+              <button type="submit" class="btn btn-modal">Отправить</button>
             </form>
           </div>
         </div>
@@ -526,9 +525,9 @@
               id="subscribe"
               placeholder="E-mail"
             />
-            <button type="submit" class="subscribe-btn">
-              <span class="btn-title">Подписаться</span>
-              <svg class="btn-icon" width="24" height="24">
+            <button type="submit" class="btn btn-subscribe">
+              Подписаться
+              <svg class="btn-subscribe__icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>

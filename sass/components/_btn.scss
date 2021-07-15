@@ -1,0 +1,36 @@
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  border-style: none;
+  border-radius: 4px;
+  color: var(--color-on-dark-accent-bg);
+  cursor: pointer;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--accent-btn-hover);
+}
+
+.btn-subscribe {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 29px;
+}
+
+.btn-hero {
+  padding: 10px 32px;
+}
+
+.btn-modal {
+  padding: 10px 56px;
+}

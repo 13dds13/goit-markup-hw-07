@@ -1,5 +1,13 @@
 @import './utils/reset';
+@import './utils/vars';
 @import './utils/visually-hidden';
+@import './base/body';
+@import './base/images';
 @import './layout/page-header';
-@import './components/_logo.scss';
+@import './base/container';
+@import './base/section';
 @import './components/logo';
+@import './components/nav-list';
+@import './components/contacts-list';
+@import "./layout/hero";
+@import './components/btn';
