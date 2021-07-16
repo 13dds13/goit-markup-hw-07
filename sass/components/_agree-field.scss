@@ -28,11 +28,12 @@
   fill: var(--color-on-dark-accent-bg);
 }
 
-.user-check:checked + .label-agree__wrap {
+.user-check:checked + .label-agree .label-agree__wrap {
   border: none;
   background-color: var(--accent-color);
 }
 
 .label-agree__link {
   color: var(--accent-color);
+  text-decoration: underline;
 }
