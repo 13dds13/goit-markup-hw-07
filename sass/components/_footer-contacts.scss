@@ -14,7 +14,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--color-on-dark-accent-bg);
+    color: $color-on-dark-accent-bg;
   }
 
   &__link {
@@ -29,7 +29,7 @@
 
     &:hover,
     &:focus {
-      color: var(--accent-color);
+      color: $accent-color;
     }
   }
 }

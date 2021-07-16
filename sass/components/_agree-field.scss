@@ -13,7 +13,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: $text-color;
 }
 
 .label-agree__wrap {
@@ -23,17 +23,17 @@
   margin-right: 7px;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--logo-color-dark);
+  border: 2px solid $logo-color-dark;
   border-radius: 2px;
-  fill: var(--color-on-dark-accent-bg);
+  fill: $color-on-dark-accent-bg;
 }
 
 .user-check:checked + .label-agree .label-agree__wrap {
   border: none;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .label-agree__link {
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: underline;
 }

@@ -18,7 +18,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-on-dark-accent-bg);
+  color: $color-on-dark-accent-bg;
 }
 
 .subscribe-input {
@@ -29,7 +29,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
-  color: var(--color-on-dark-accent-bg);
+  color: $color-on-dark-accent-bg;
 
   &::placeholder {
     font-size: 16px;
@@ -41,6 +41,6 @@
 
   &:hover,
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
 }

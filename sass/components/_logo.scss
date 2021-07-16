@@ -1,5 +1,5 @@
 .logo {
-  font-family: var(--font-logo);
+  font-family: $font-logo;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -14,7 +14,7 @@
   }
 
   &__web {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 

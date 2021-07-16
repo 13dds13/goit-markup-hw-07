@@ -21,10 +21,10 @@
 
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 
     .socials-list__icon {
-      fill: var(--color-on-dark-accent-bg);
+      fill: $color-on-dark-accent-bg;
     }
   }
 
@@ -39,10 +39,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &_fill_light-gray {
-    fill: var(--socials-icon-light-gray);
+    fill: $socials-icon-light-gray;
   }
 
   &_fill_white {
-    fill: var(--color-on-dark-accent-bg);
+    fill: $color-on-dark-accent-bg;
   }
 }

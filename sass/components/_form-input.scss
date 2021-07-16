@@ -8,7 +8,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--text-color);
+  color: $text-color;
 
   text-align: left;
 }
@@ -44,10 +44,10 @@
 
   &:hover,
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 
     & + .input__icon {
-      fill: var(--accent-color);
+      fill: $accent-color;
     }
   }
 }
