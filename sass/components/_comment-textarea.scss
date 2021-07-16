@@ -11,17 +11,17 @@
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
 
-.comment::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
 
-  color: rgba(117, 117, 117, 0.5);
-}
+    color: rgba(117, 117, 117, 0.5);
+  }
 
-.comment:hover,
-.comment:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }

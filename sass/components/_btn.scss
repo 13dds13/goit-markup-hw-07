@@ -10,29 +10,34 @@
   color: var(--color-on-dark-accent-bg);
   cursor: pointer;
 
-  transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.btn:hover,
-.btn:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--accent-btn-hover);
-}
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: var(--accent-btn-hover);
+  }
 
-.btn-subscribe {
-  display: flex;
-  align-items: center;
-  padding: 10px 29px;
-}
+  &-hero {
+    padding: 10px 32px;
+  }
 
-.btn-hero {
-  padding: 10px 32px;
-}
+  &-modal {
+    padding: 10px 56px;
+  }
 
-.btn-modal {
-  padding: 10px 56px;
+  &-subscribe {
+    display: flex;
+    align-items: center;
+    padding: 10px 29px;
+
+    &__icon {
+      margin-left: 10px;
+      fill: var(--color-on-dark-accent-bg);
+    }
+  }
 }
 
 .filter-list__button {
@@ -43,13 +48,11 @@
   color: var(--title-color);
   background-color: var(--bgc-light-gray);
 
-  transition-property: color;
-}
-
-.filter-list__button:focus,
-.filter-list__button:hover {
-  color: var(--color-on-dark-accent-bg);
-  background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  &:focus,
+  &:hover {
+    color: var(--color-on-dark-accent-bg);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
